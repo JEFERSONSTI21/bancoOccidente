@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- template: OdooPipeline.yml
+- template: /OdooPipeline.yml
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
