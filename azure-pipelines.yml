@@ -16,6 +16,7 @@ resources:
     trigger: 
       branches:
       - master
+      - Jeferson
 steps:
 - task: Maven@3
   inputs:
