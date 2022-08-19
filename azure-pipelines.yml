@@ -9,6 +9,13 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+resources:
+  pipelines:
+  - pipeline: security
+    source: DevOps IDI-Maven-CI eje s
+    trigger: 
+      branches:
+      - master
 steps:
 - task: Maven@3
   inputs:
