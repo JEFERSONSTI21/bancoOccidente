@@ -12,7 +12,7 @@ pool:
 resources:
   pipelines:
   - pipeline: security
-    source: DevOps IDI-Maven-CI Exitoso
+    source: DevOps IDI-Maven-CI
     trigger: 
       branches:
       - master
